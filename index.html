@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/pro.css">
+    <title>Document</title>
+    <style>
+        .hidden-iframe {
+            display: hidden;
+            margin: auto;
+            padding-top: 40px!important;
+            background-color: rgba(0, 0, 0, 0.6);
+            height: 100vh;
+        }
+        
+        .fancybox-button {
+            background: rgba(30, 30, 30, .6);
+            border: 0;
+            border-radius: 0;
+            box-shadow: none;
+            cursor: pointer;
+            display: inline-block;
+            height: 44px;
+            margin: 0;
+            padding: 10px;
+            position: relative;
+            transition: color .2s;
+            vertical-align: top;
+            visibility: inherit;
+            width: 44px;
+        }
+        
+        .fancybox-button--close {
+            position: absolute;
+            right: 0px;
+            top: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hidden-iframe" style="padding:0 170px;">
+        <a href="pro.html">
+            <button data-fancybox-close="" class="fancybox-button fancybox-button--close" title="Close">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M12 10.6L6.6 5.2 5.2 6.6l5.4 5.4-5.4 5.4 1.4 1.4 5.4-5.4 5.4 5.4 1.4-1.4-5.4-5.4 5.4-5.4-1.4-1.4-5.4 5.4z"></path>
+                </svg>
+            </button>
+        </a>
+        <iframe width="1552" height="873" src="https://www.youtube.com/embed/mwtbEGNABWU" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</body>
+
+</html>
